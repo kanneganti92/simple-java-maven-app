@@ -1,4 +1,4 @@
-FROM openjdk12:alpine
+FROM openjdk:8
 #WORKDIR /
 RUN mkdir /opt/bin
 COPY /target/my-app-1.0-SNAPSHOT.jar /opt
