@@ -2,7 +2,7 @@
   tasks:
     - name: Copy files to remote host
       copy:
-        src: /var/lib/jenkins/workspace/simple-java-maven-app/target/
+        src: /var/lib/jenkins/workspace/ansible-copy-artifacts/target
         dest: /tmp/copy-test
         owner: kanneganti1101
         mode: 0755
