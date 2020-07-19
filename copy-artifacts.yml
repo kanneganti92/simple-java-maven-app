@@ -6,3 +6,4 @@
         dest: /tmp/copy-test/
         owner: kanneganti1101
         mode: 0755
+      become: true
